@@ -3,7 +3,7 @@
 require_once "src/planta.php";
 
 //Atribuindo
-$planta1 = new Planta('Suculenta', 'echeveria elegans', 15, 0);
+$planta1 = new Planta('Suculenta', 'echeveria elegans', 15);
 
 ?>
 <!DOCTYPE html>
@@ -46,7 +46,7 @@ $planta1 = new Planta('Suculenta', 'echeveria elegans', 15, 0);
 
                 <span class="valor">
                     <!-- Exiba a quantidade diária em ml. -->
-                    <?= $planta1->getAguaPorDia() ?>
+                    <?= $planta1->getAguaPorDia() ?> ml
                 </span>
             </div>
 
@@ -55,7 +55,7 @@ $planta1 = new Planta('Suculenta', 'echeveria elegans', 15, 0);
 
                 <p>
                     <!-- Exiba a quantidade calculada para sete dia -->
-                     <?= $planta1->calcularAguaSemanal() ?>
+                     <?= $planta1->calcularAguaSemanal() ?> ml
                 </p>
             </div>
 

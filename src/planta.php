@@ -19,7 +19,7 @@ class Planta
 
     public function calcularAguaSemanal(): string
     {
-        return ($this->aguaPorDia * 7 ) .' ml';
+        return ($this->aguaPorDia * 7 );
     } 
 
   /* getters */
@@ -35,7 +35,7 @@ class Planta
   
   public function getAguaPorDia(): string 
   {
-        return ($this->aguaPorDia) .' ml';
+        return ($this->aguaPorDia);
   }
 
 
