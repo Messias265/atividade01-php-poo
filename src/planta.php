@@ -9,7 +9,7 @@ class Planta
     private string $aguaPorDia;
 
     /* Construtor */
-    public function __construct(string $nome, string $especie, int $aguaPorDia, int $aguasm){
+    public function __construct(string $nome, string $especie, int $aguaPorDia){
 
         $this->nome = $nome;
         $this->especie = $especie;
